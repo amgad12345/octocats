@@ -4,9 +4,101 @@
 
 html {
   height: 100%;
+  background-color: rgb(222, 225, 228);
 }
 
 body {
   margin: 0;
   min-height: 100%;
 }
+
+
+img {
+  height:298px;
+  width: 298px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 1.5rem;
+}
+
+
+header {
+  background-color: white;
+   padding-top: 1.3rem ;
+   padding-bottom: 1.3rem;
+  display:flex;
+  color: black;
+  
+ 
+}
+
+a {
+  color : black;
+  text-decoration: none;
+}
+
+
+.o {
+
+  font-weight: bold;
+}
+
+
+.back {
+  display :  none ;
+}
+
+.follow {
+
+  margin-left: 3.5rem;
+}
+
+.hf {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+
+}
+
+
+.f{
+padding-left: 2rem ;
+
+}
+
+.h {
+
+  padding-left: 3rem ;
+  font-size: 0.9rem;
+
+
+}
+ul {
+
+  text-decoration: none;
+
+}
+
+
+ .smalle {
+
+  
+  height:29px;
+  width: 29px;
+}
+
+
+h2 {
+
+
+  font-size: 1rem;
+}
+
+
+div {
+
+  float:left;
+  display: table-row
+
+} 
+
