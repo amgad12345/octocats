@@ -5,6 +5,7 @@ import filmtocats from './images/filmtocats.jpeg'
 import Umbrellatocat from './images/puddle_jumper_octodex.jpeg'
 import Boxertocat from './images/boxertocat_octodex.jpeg'
 import Surftocat from './images/surftocat.jpeg'
+import octo from './images/octo.jpeg'
 import img1 from './images/1.jpeg'
 import img2 from './images/2.jpeg'
 import img3 from './images/3.jpeg'
@@ -18,23 +19,24 @@ const App = () => {
   return (
     <>
       <header>
-      <section class = "hf">
+      <section class = "left">
+      <div class="logo"><a href=""><img id ="octo-icon" alt = "git hub logo" src={octo} /></a></div>
         <a href='https://octodex.github.com/' class = 'o'> Octodex </a>
         
           
-            <a href='https://octodex.github.com/'class = 'h'>Home</a>
+           <a href='https://octodex.github.com/'class = 'h'>Home</a>
          
          
-            <a href='https://octodex.github.com/faq/'class= 'f'>FAQ</a>
+           <a href='https://octodex.github.com/faq/'class= 'f'>FAQ</a>
          
             </section>
-          
-            <a href='https://twitter.com/githubdesign' class = "follow">Follow us on Twiter</a>
+           <section class = "right">
+           <div><a href='https://twitter.com/githubdesign' class = "follow">Follow us on Twiter</a></div>
         
           
-            <a href='https://github.com/' class = 'back'>Back to GitHub.com</a>
-         
-        
+           <div> <a href='https://github.com/' class = 'back'>Back to GitHub.com</a></div>
+            </section>
+             
       </header>
       <main>
         <ul>

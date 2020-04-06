@@ -4,101 +4,146 @@
 
 html {
   height: 100%;
-  background-color: rgb(222, 225, 228);
+  
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  background-color:#fafbfc;
 }
 
-
-img {
-  height:298px;
-  width: 298px;
-  background-color: white;
-  border-radius: 20px;
-  margin-left: 1.5rem;
+#octo-icon {
+  height: 2.3rem;
+  width: 2.3rem;
 }
 
 
 header {
-  background-color: white;
-   padding-top: 1.3rem ;
-   padding-bottom: 1.3rem;
   display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  height: 278px;
+  background-color:rgba(255, 255, 255, 0.938);
+  height: 64px;
+  position:sticky;
+  top:0;
   color: black;
+  border-bottom: 1px solid lightgrey;
+  opacity: 0.8;
+  box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,0.05);  
   
- 
 }
 
+.left {
+  margin-left:2.5rem;
+  display:flex;
+  flex-direction:row;
+  width:100%
+  
+}
+
+.right {
+
+  text-align:center;
+  width:40rem
+}
+
+
 a {
-  color : black;
+  color: black;
   text-decoration: none;
 }
 
-
 .o {
-
+  padding-top: 10px;
+  padding-left: 6px;
+  display: inline;
+  vertical-align: middle;
+  height: 1rem;
   font-weight: bold;
 }
 
 
 .back {
-  display :  none ;
-}
+  font-size: 0.9rem;
+  padding-left: 15px;
+} 
+
 
 .follow {
-
+  font-size: 0.9rem;
+  height: 1rem;
   margin-left: 3.5rem;
 }
 
-.hf {
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:space-between;
 
+img {
+  height: 345px;
+  width: 305px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 1.5rem;
+  border: 1px solid lightgrey;
 }
 
 
-.f{
-padding-left: 2rem ;
 
+div.wrap {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 305px;
+  margin-left: 1.5rem;
+}
+
+div.in-line {
+  display: flex;
+}
+
+
+.f {
+  padding-top: 10px;
+  height: 1rem;
+  padding-left: 2rem;
+  font-size: 14px;
 }
 
 .h {
-
-  padding-left: 3rem ;
+  padding-top: 10px;
+  height: 1rem;
+  padding-left: 3rem;
   font-size: 0.9rem;
-
-
+  color: grey;
 }
 ul {
-
   text-decoration: none;
-
 }
 
-
- .smalle {
-
-  
-  height:29px;
-  width: 29px;
+.smalle-img {
+  height: 25px;
+  width: 25px;
+  margin-top: 7px;
 }
-
 
 h2 {
-
-
+  margin-top: 17px;
+  margin-left: 2px;
   font-size: 1rem;
+  height: 40px;
 }
 
-
 div {
-
-  float:left;
-  display: table-row
-
-} 
-
+  float: left;
+  display: table-row;
+}

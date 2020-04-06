@@ -6,10 +6,12 @@ return (
 
 <div class = 'wrap'>
 <img src = {props.image} />
-<div>
+<div class = 'user-info'>
+ <div class = "in-line">
 <p>{props.number}</p>
 <h2>{props.name}</h2>
-<img class ='smalle' src = {props.imagep} />
+</div>
+<img class ='smalle-img' src = {props.imagep} />
 </div>
 </div>
 
