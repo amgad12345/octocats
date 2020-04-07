@@ -16,6 +16,7 @@ body {
 #octo-icon {
   height: 2.3rem;
   width: 2.3rem;
+  border: 0;
 }
 
 
@@ -30,6 +31,7 @@ header {
   position:sticky;
   top:0;
   color: black;
+  margin-bottom: 2.4rem;
   border-bottom: 1px solid lightgrey;
   opacity: 0.8;
   box-shadow: 0 0.5rem 1.25rem rgba(0,0,0,0.05);  
@@ -61,7 +63,6 @@ a {
   padding-left: 6px;
   display: inline;
   vertical-align: middle;
-  height: 1rem;
   font-weight: bold;
 }
 
@@ -75,17 +76,17 @@ a {
 .follow {
   font-size: 0.9rem;
   height: 1rem;
-  margin-left: 3.5rem;
+  margin-left: 6.3rem;
 }
 
 
 img {
-  height: 345px;
-  width: 305px;
+  height: 295px;
+  width: 320px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-left: 1.5rem;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(233, 229, 229);
 }
 
 
@@ -128,6 +129,8 @@ div.in-line {
 }
 ul {
   text-decoration: none;
+  width: fit-content;
+  margin: 0;
 }
 
 .smalle-img {
