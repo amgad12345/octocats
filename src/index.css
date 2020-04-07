@@ -70,13 +70,24 @@ a {
 .back {
   font-size: 0.9rem;
   padding-left: 15px;
-} 
+ 
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+
+.follow:hover {
+  text-decoration: underline;
+}
 
 
 .follow {
   font-size: 0.9rem;
   height: 1rem;
   margin-left: 6.3rem;
+
 }
 
 
